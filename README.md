@@ -24,6 +24,21 @@ cd GPTify
 pip install -r requirements.txt
 ```
 
+## Obtaining API Keys
+
+To use GPTify, you will need API keys for both OpenAI and Spotify.
+
+### OpenAI API Key
+
+1. Visit the [OpenAI website](https://www.openai.com/) and sign up for an account if you haven't already.
+2. After signing up, navigate to the [API key management page](https://platform.openai.com/signup) and copy your API key.
+
+### Spotify API Key
+
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) and log in or sign up for a Spotify Developer account.
+2. Click "Create an App" and fill out the required information.
+3. Once your app is created, you'll find your `Client ID`, `Client Secret`, and `Redirect URI` in the app settings.
+
 ## Usage
 
 1. Set up the necessary API keys in `config.py`:
