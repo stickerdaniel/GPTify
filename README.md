@@ -28,10 +28,9 @@ pip install -r requirements.txt
 
 1. Set up the necessary API keys in `config.py`:
 ```python
-SPOTIPY_CLIENT_ID = 'your_spotify_client_id'
-SPOTIPY_CLIENT_SECRET = 'your_spotify_client_secret'
-SPOTIPY_REDIRECT_URI = 'your_spotify_redirect_uri'
 OPENAI_API_KEY = 'your_openai_api_key'
+SPOTIPY_CLIENT_ID = 'your_spotify_client_id'
+SPOTIFY_CLIENT_SECRET = 'your_spotify_client_secret_here'
 ```
 2. Run the main program:
 ```python 
