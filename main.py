@@ -3,7 +3,7 @@ from authentication import authenticate_spotify, authenticate_openai
 from sort_song_into_playlist import sort_song_into_playlist
 from playlist_song_recommendations import add_recommended_songs_to_playlist
 from discover_new_artists import discover_new_artists
-from config import SPOTIFY_CLIENT_ID as client_id, SPOTIFY_CLIENT_SECRET as client_secret, SPOTIFY_REDIRECT_URI as redirect_uri, SPOTIFY_SCOPE as scope, OPENAI_API_KEY as api_key
+from config import SPOTIFY_CLIENT_ID as client_id, SPOTIFY_CLIENT_SECRET as client_secret, OPENAI_API_KEY as api_key
 
 
 # Function to display the main menu and execute user-selected options
